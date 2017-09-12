@@ -7,6 +7,7 @@ var config = {
     storageBucket: "trainscheduler-6b89c.appspot.com",
     messagingSenderId: "1034684708928"
 };
+
 firebase.initializeApp(config);
 
 var trainName, destination, freq;
